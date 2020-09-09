@@ -32,7 +32,7 @@ function TodoItem({ todo, index, onChange }) {
   );
 }
 
-TodoItem.ProrTypes = {
+TodoItem.prorTypes = {
   todo: ProrTypes.object.isRequired,
   index: ProrTypes.number,
   onChange: ProrTypes.func.isRequired
