@@ -1,6 +1,7 @@
 import React from "react";
 import TodoItem from "./TodoItem";
-import PropTypes, { checkPropTypes } from "prop-types";
+import PropTypes from "prop-types";
+
 const styles = {
   ul: {
     listStyle: "none",

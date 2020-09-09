@@ -1,6 +1,6 @@
 import React from "react";
 import ProrTypes from "prop-types";
-import { findByLabelText } from "@testing-library/react";
+//import { findByLabelText } from "@testing-library/react";
 
 const styles = {
   li: {
@@ -18,6 +18,7 @@ const styles = {
 };
 
 function TodoItem({ todo, index, onChange }) {
+  console.log("todo", todo);
   return (
     <li style={styles.li}>
       <span>
