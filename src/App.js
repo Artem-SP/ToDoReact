@@ -6,19 +6,19 @@ export default function App() {
     { id: 1, completed: false, title: "to by bread" },
     { id: 2, completed: false, title: "to by butter" },
     { id: 3, completed: false, title: "to by milk" }
-  ]
+  ];
 
-   function toggleTodo(id) {
-     console.log ('todo id', id )
-  //   setTodos(
-  //     todos.map((todo) => {
-  //       if (todo.id === id) {
-  //         todo.completed = !todo.completed;
-  //       }
-  //       return todo;
-  //     })
-  //   )
-   }
+  function toggleTodo(id) {
+    console.log("todo id", id);
+    //   setTodos(
+    //     todos.map((todo) => {
+    //       if (todo.id === id) {
+    //         todo.completed = !todo.completed;
+    //       }
+    //       return todo;
+    //     })
+    //   )
+  }
 
   return (
     <div className="wrapper">
