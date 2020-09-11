@@ -25,7 +25,7 @@ function TodoItem({ todo, index, onChange }) {
         <input
           type="checkbox"
           style={styles.input}
-          onChange={() => console.log(todo.id)}
+          onChange={() => onChange(todo.id)}
         />
         <strong>{index + 1}</strong>
         &nbsp;
